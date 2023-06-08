@@ -1,0 +1,221 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font: 15px Georgia;
+    background-color: rgb(230, 238, 238);
+    width: 100%;
+}
+
+button{
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(65, 73, 73);
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: rgb(134, 130, 130);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+h2{
+    color: rgb(65, 66, 65);
+    font-size: 25px;
+}
+
+input[type="text"]{
+    width: 310px;
+}
+
+ul { 
+    list-style: none; 
+    display: block; 
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+ul:after {
+    display: block;
+    float: none;
+    content: ' '; 
+    clear: both;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 33%;
+}	
+
+ul.menu > li > a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(65, 66, 65);
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+ul.menu > li > a:hover {
+    background-color: rgb(170, 172, 168);
+    color: black;
+    transition: background-color 0.5s;
+}
+
+ul.submenu {
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    display: none;
+    background-color: white;
+    text-align: center;
+    transition: background-color 0.5s;
+}	
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgb(33, 34, 33);
+}	
+
+ul.submenu > li > a:hover {
+    background-color: rgb(209, 209, 209);
+    text-decoration: none;
+    transition: background-color 0.5s;
+    color: black;
+}	 
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}	
+
+.d_banner{
+    margin-top: 5px;
+    position: relative;
+    height: 160px;
+}
+
+.d_banner-img{
+    margin-top: 30px;
+}
+
+.service-block{
+    margin-right: 10px;
+}
+
+.d_reg{
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(202, 198, 198);
+    padding: 10px;
+    width: 20%;
+}
+
+.d_reg-btn{
+    display: block;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    transition: background-color 0.5s;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.d_reg-btn:hover{
+    background-color: rgb(33, 34, 33);
+    transition: background-color 0.5s;
+}
+
+.btn{
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(65, 73, 73);
+    text-decoration: none;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    padding: 12px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(65, 73, 73);
+    transition: background-color 0.5s;
+}
+
+.auth-finish{
+    margin-top: 35px;
+}
+
+.input{
+    min-width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+}
+
+.form_block{
+    background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.d_menu{
+    margin: 4px;
+    width: 100%;
+    float: none;
+    clear: both;
+}
+
+.d_cont{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 15% 0 15%;
+    width: 70%;
+}
+
+.tbl:hover{
+    background-color: rgb(154, 168, 168);
+}
+
+table.data_tbl{
+    background: rgb(230, 238, 238);
+    border-collapse: collapse;
+
+}
+
+table.data_tbl th {
+    border-bottom: 2px solid #6678b1;
+    padding: 5px;
+}
+
+table.data_tbl td {
+    border-bottom: 1px solid #6678b1;
+    padding: 15px;
+}
+
